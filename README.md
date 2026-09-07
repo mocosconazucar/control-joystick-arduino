@@ -1,4 +1,4 @@
-\# Control Arcade Personalizado - Proyecto SUP2026
+\# Control Arcade Personalizado - iKe-GO Showdown
 
 
 
@@ -20,7 +20,7 @@ Para probar y validar el funcionamiento del control se utiliza \*\*Ikemen GO\*\*
 
 \## Herramientas y Materiales Utilizados
 
-\* \*\*Hardware:\*\*
+\* \*\*Hardware:
 
 &#x20; \* Arduino Pro Micro / Leonardo (Soporte HID USB / `Keyboard.h`)
 
@@ -32,7 +32,7 @@ Para probar y validar el funcionamiento del control se utiliza \*\*Ikemen GO\*\*
 
 &#x20; \* Cableado y protoboard / placa de pruebas
 
-\* \*\*Software:\*\*
+\* \*\*Software:
 
 &#x20; \* Arduino IDE (Desarrollo y carga de firmware)
 
@@ -44,11 +44,11 @@ Para probar y validar el funcionamiento del control se utiliza \*\*Ikemen GO\*\*
 
 \## Esquema de Conexiones
 
-\* \*\*Eje X (Joystick):\*\* Pin A0 -> Controles de movimiento lateral (A / D)
+\* \*\*Eje X (Joystick): Pin A0 -> Controles de movimiento lateral (A / D)
 
-\* \*\*Eje Y (Joystick):\*\* Pin A1 -> Controles de salto / agacharse (W / S)
+\* \*\*Eje Y (Joystick): Pin A1 -> Controles de salto / agacharse (W / S)
 
-\* \*\*Botón Joystick (SW):\*\* Pin Digital 3 -> Acción de botón (X)
+\* \*\*Botón Joystick (SW): Pin Digital 3 -> Acción de botón (X)
 
-\* \*\*Sensor de Golpe:\*\* Pin Digital 9 -> Acción especial / Ataque por choque (Z)
+\* \*\*Sensor de Golpe: Pin Digital 9 -> Acción especial / Ataque por choque (Z)
 
