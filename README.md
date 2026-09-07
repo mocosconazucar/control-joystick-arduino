@@ -1,10 +1,28 @@
-\# Control Arcade Personalizado - Proyecto SUP2026
+\# Control Arcade Personalizado - iKe-GO Showdown
 
 
 
 \## Descripción del Proyecto
 
+
+
+<img src="diagrama\_conexion.png" align="right" width="380" alt="Diagrama de Conexiones Arduino y Joystick">
+
+
+
 Este proyecto consiste en el diseño, ensamblaje y programación de un controlador arcade físico basado en hardware libre. Permite enviar señales de entrada rápidas y de baja latencia simulando eventos de teclado USB para juegos de pelea en tiempo real.
+
+
+
+El circuito integra un Arduino Pro Micro/Leonardo, un joystick analógico de dos ejes y sensores físicos montados sobre protoboard para registrar los movimientos del jugador de manera precisa.
+
+
+
+<br clear="right"/>
+
+
+
+\---
 
 
 
@@ -15,6 +33,10 @@ El objetivo principal es crear una interfaz de control directa para evaluar la r
 
 
 Para probar y validar el funcionamiento del control se utiliza \*\*Ikemen GO\*\* (motor de juego de peleas basado en MUGEN), donde además se integran y modifican escenarios y personajes personalizados. El juego actúa como entorno de prueba para medir la precisión y velocidad de respuesta del hardware en combate.
+
+
+
+\---
 
 
 
@@ -44,15 +66,7 @@ Para probar y validar el funcionamiento del control se utiliza \*\*Ikemen GO\*\*
 
 
 
-\## Diagrama de Circuito
-
-
-
-!\[Diagrama de Conexiones Arduino Pro Mini y Joystick](diagrama\_conexion.png)
-
-
-
-\### Mapa de Conexiones (Tabla de Pines)
+\## Mapa de Conexiones (Tabla de Pines)
 
 
 
@@ -98,5 +112,5 @@ Para probar y validar el funcionamiento del control se utiliza \*\*Ikemen GO\*\*
 
 &#x20;  - Iniciar Ikemen GO y acceder a \*Options > Key Config\*.
 
-&#x20;  - Mapear las teclas enviadas por el control (`W`, `A`, `S`, `D`, `X`, `Z`) a las acciones deseadas de los personajes.
+&#x20;  - Mapear las teclas enviadas por el control (`W`, `A`, `S`, `D`, `X`, `Z`) a las acciones deseadas.
 
