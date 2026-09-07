@@ -1,4 +1,6 @@
-\# Control Arcade Personalizado - iKe-GO Showdown
+\# Control Arcade Personalizado - Proyecto SUP2026
+
+
 
 \## Descripción del Proyecto
 
@@ -46,7 +48,7 @@ Para probar y validar el funcionamiento del control se utiliza \*\*Ikemen GO\*\*
 
 
 
-!\[Diagrama de Conexiones Arduino Pro Mini y Joystick](diagrama\_conexion.jpg)
+!\[Diagrama de Conexiones Arduino Pro Mini y Joystick](diagrama\_conexion.png)
 
 
 
@@ -96,5 +98,5 @@ Para probar y validar el funcionamiento del control se utiliza \*\*Ikemen GO\*\*
 
 &#x20;  - Iniciar Ikemen GO y acceder a \*Options > Key Config\*.
 
-&#x20;  - Mapear las teclas enviadas por el control (`W`, `A`, `S`, `D`, `X`, `Z`) a las acciones deseada de los personajes.
+&#x20;  - Mapear las teclas enviadas por el control (`W`, `A`, `S`, `D`, `X`, `Z`) a las acciones deseadas de los personajes.
 
