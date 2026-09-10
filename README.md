@@ -41,7 +41,7 @@ Para probar y validar el funcionamiento del control se utiliza **Ikemen GO** (mo
 
 ── 𖦹 ── · 𖥻 ִ ۫ ּ ₊ ⊹ 𓏲 ๋  
 
-## 🗺️ Mapa de Conexiones (Tabla de Pines) ฅ^._.^ฅ
+##  Mapa de Conexiones (Tabla de Pines) ฅ^._.^ฅ
 
 > ┌───────────────────────────┬──────────────────────┬────────────────┬──────────────────────────────────────────┐  
 > │ **Componente**            │ **Pin Componente**   │ **Pin Arduino**│ **Función en Juego / Tecla**             │  
