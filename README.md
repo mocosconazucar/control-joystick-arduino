@@ -2,11 +2,11 @@
 
 <div align="center">
 
-── 𖦹 ── · 𖥻 ִ ۫ ּ ₊ ⊹ 𓏲 ๋ 🐱 🎀 𐐪𐑂 ₍ᐢ. ̫.ᐢ₎ ── 𖦹 ──
+── 𖦹 ── · 𖥻 ִ ۫ ּ ₊ ⊹ 𓏲 ๋ 🐱  𐐪𐑂 ₍ᐢ. ̫.ᐢ₎ ── 𖦹 ──
 
 </div>
 
-## 📌 Descripción del Proyecto
+##  Descripción del Proyecto
 
 <img src="diagrama_conexion.png" align="right" width="380" alt="Diagrama de Conexiones Arduino y Joystick">
 
@@ -16,30 +16,30 @@ El circuito integra un Arduino Pro Micro/Leonardo, un joystick analógico de dos
 
 <br clear="right"/>
 
-── 𖦹 ── · 𖥻 ִ ۫ ּ ₊ ⊹ 𓏲 ๋ 🍓 🍒 ˚ ༘ ೀ
+── 𖦹 ── · 𖥻 ִ ۫ ּ ₊ ⊹ 𓏲 ๋   ˚ ༘ ೀ
 
-## 🎯 Propósito del Proyecto
+##  Propósito del Proyecto
 
 El objetivo principal es crear una interfaz de control directa para evaluar la respuesta de los componentes físicos (joystick, botones y sensores) en entornos de juego. (˶˃ᆺ˂˶)
 
-Para probar y validar el funcionamiento del control se utiliza **Ikemen GO** (motor de juego de peleas basado en MUGEN), donde además se integran y modifican escenarios y personajes personalizados. El juego actúa como entorno de prueba para medir la precisión y velocidad de respuesta del hardware en combate. ✨
+Para probar y validar el funcionamiento del control se utiliza **Ikemen GO** (motor de juego de peleas basado en MUGEN), donde además se integran y modifican escenarios y personajes personalizados. El juego actúa como entorno de prueba para medir la precisión y velocidad de respuesta del hardware en combate. 
 
 ── 𖦹 ── · 𖥻 ִ ۫ ּ ₊ ⊹ 𓏲 ๋ ⋆ ˚ ｡ ⋆ ୨୧ ˚ ⋆
 
-## 🛠️ Herramientas y Materiales Utilizados
+##  Herramientas y Materiales Utilizados
 
-* 🎀 **Hardware:**
+*  **Hardware:**
   * Placa de desarrollo compatible con HID (Arduino Pro Micro / Leonardo)
   * Módulo de Joystick analógico de 2 ejes (VRx / VRy / SW)
   * Sensor de choque / golpe (Shock sensor)
   * Placa de pruebas (Protoboard) y cables Jumper
 
-* 🍓 **Software:**
+*  **Software:**
   * Arduino IDE (Entorno de desarrollo y carga de firmware)
   * Ikemen GO / Engine MUGEN (Motor de prueba e integración)
   * Git & GitHub (Control de versiones y documentación)
 
-── 𖦹 ── · 𖥻 ִ ۫ ּ ₊ ⊹ 𓏲 ๋ 💫 🌟
+── 𖦹 ── · 𖥻 ִ ۫ ּ ₊ ⊹ 𓏲 ๋  
 
 ## 🗺️ Mapa de Conexiones (Tabla de Pines) ฅ^._.^ฅ
 
@@ -54,16 +54,16 @@ Para probar y validar el funcionamiento del control se utiliza **Ikemen GO** (mo
 > │ **GND (Todos)**           │ Tierra común         │ **GND**        │ Masa común                               │  
 > └───────────────────────────┴──────────────────────┴────────────────┴──────────────────────────────────────────┘  
 
-── 𖦹 ── · 𖥻 ִ ۫ ּ ₊ ⊹ 𓏲 ๋ 🐾 💤
+── 𖦹 ── · 𖥻 ִ ۫ ּ ₊ ⊹ 𓏲 ๋  
 
-## 🚀 Instrucciones de Instalación y Configuración
+##  Instrucciones de Instalación y Configuración
 
-1. 🌸 **Montaje Físico:** Conectar el joystick y el sensor de golpe al Arduino respetando el esquema del diagrama y la tabla de conexiones.
-2. 💫 **Carga del Firmware:**
+1.  **Montaje Físico:** Conectar el joystick y el sensor de golpe al Arduino respetando el esquema del diagrama y la tabla de conexiones.
+2.  **Carga del Firmware:**
    * Abrir el archivo `main.ino` en Arduino IDE.
    * Seleccionar la placa **Arduino Leonardo / Micro** en el menú *Herramientas*.
    * Compilar y subir el programa a la placa.
-3. 🎮 **Prueba en Ikemen GO:**
+      **Prueba en Ikemen GO:**
    * Conectar el controlador por USB al PC.
    * Iniciar Ikemen GO y acceder a *Options > Key Config*.
    * Mapear las teclas enviadas por el control (`W`, `A`, `S`, `D`, `X`, `Z`) a las acciones deseadas.
